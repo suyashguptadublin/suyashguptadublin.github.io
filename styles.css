@@ -27,8 +27,18 @@ header p {
     font-size: 1.2em;
 }
 
+/* Contact Info Styling */
 .contact-info p {
     margin: 5px 0;
+}
+
+.contact-info a {
+    color: white; /* Ensure links in the header are visible with white text */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
 
 /* Section Styling */
